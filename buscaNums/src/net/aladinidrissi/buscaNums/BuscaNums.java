@@ -13,13 +13,13 @@ public class BuscaNums {
 		String mostraArray = ""; 
 		
 		int num; 
-		int array[] = new int[1000]; 
+		int array[] = new int[500]; 
 		System.out.print("Insereix el numero a buscar: "); 
 													
 		num = lector.nextInt(); 
-		for (int i = 0; i < 1000; i++) { 
+		for (int i = 0; i < 500; i++) { 
 			
-			array[i] = (int) (r.nextDouble()*1000); 
+			array[i] = (int) (r.nextDouble()*500); 
 			mostraArray += " " + array[i]; 
 			
 			if (array[i] == num) { 
